@@ -12,7 +12,7 @@ Pad.x = Margin
 Pad.y = Margin
 Pad.width = 20
 Pad.height = 80
-Pad.speed = 3
+Pad.speed = 5
 Pad.score = 0
 
 Pad_2 = {}
@@ -20,7 +20,7 @@ Pad_2.x = Margin
 Pad_2.y = Margin
 Pad_2.width = 20
 Pad_2.height = 80
-Pad_2.speed = 3
+Pad_2.speed = 5
 Pad_2.score = 0
 
 Ball = {}
@@ -28,8 +28,8 @@ Ball.x = 400
 Ball.y = 300
 Ball.width = 20
 Ball.height = 20
-Ball.vitesse_x = -2
-Ball.vitesse_y = -2
+Ball.vitesse_x = 10
+Ball.vitesse_y = 10
 
 Monitor_height = 0
 Monitor_width = 0
@@ -39,8 +39,8 @@ function CentreBall()
     Ball.x = Ball.x - Ball.width / 2
     Ball.y = Monitor_height / 2
     Ball.y = Ball.y - Ball.height / 2
-    Ball.vitesse_x = 2
-    Ball.vitesse_y = -2
+    Ball.vitesse_x = 5
+    Ball.vitesse_y = -5
 end
 
 function InitPads()
